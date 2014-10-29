@@ -14,6 +14,6 @@ The "repository" of interest for the CSCI 6314 class will be the [eCommerce repo
 
 I am going to make some brief notes on one approach to build a project according to the requirements discussed in class. It is not the only way, and likely not the way one would do professionally, but it may help guide some who get stuck thinking about it.
 
-I will put a task plan in a file called taskplan.md. Files ending in .md are text files using a type of formatting that can be translated into HTML using a markup named Markdown. If you view these online, GitHub will show the document as HTML. If you download, just open in a text editor to view the text version.
+I will put a task plan in a file called [taskplan.md](https://github.com/joelgarzatx/eCommerce/blob/master/taskplan.md). Files ending in .md are text files using a type of formatting that can be translated into HTML using a markup named Markdown. If you view these online, GitHub will show the document as HTML. If you download, just open in a text editor to view the text version.
 
-Comments will be added journal-style to a file called project_notes.md.
+Comments will be added journal-style to a file called [project_notes.md](https://github.com/joelgarzatx/eCommerce/blob/master/project_notes.md).
