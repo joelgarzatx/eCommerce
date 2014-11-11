@@ -12,12 +12,13 @@
 <head>
 <meta charset="utf-8"/>
 <title>My Store</title>
+<link rel="stylesheet" type="text/css" href="ecommerce.css" />
 </head>
 <body> 
     <p> Items available: </p>
-    <table>
+    <table class="catalog">
         <tr>
-          <th>Item ID</th><th>Category</th><th>Title</th><th>Price</th><th>Qty Available</th>
+          <td>Item ID</td><td>Category</td><td>Title</td><td>Price</td><td>Qty Available</td>
         </tr>
 <?php
 
@@ -31,11 +32,10 @@
             $item_category = stripslashes($items['category']);
             $item_title = stripslashes($items['title']);
             $item_price = $items['price'];
-            $item_description = stripslashes($items['description']);
             $item_qty = $items['qty'];
             echo'<tr><td>'.$item_id.'</td><td>'.$item_category.
         	    '</td><td><a href="item.php?item_id='.$item_id.'">'.$item_title.'</a></td><td>'.
-        	    $item_price.'</td><td>'.$item_description.'</td><td>'.$item_qty.'</td></tr>';
+        	    $item_price.'</td><td>'.$item_qty.'</td></tr>';
         } // end while
     } // end else
 ?>

@@ -13,6 +13,7 @@
 <head>
 <meta charset="utf-8"/>
 <title>My Store</title>
+<link rel="stylesheet" type="text/css" href="ecommerce.css" />
 </head>
 <body> 
     <p> Items detail: </p>
@@ -28,7 +29,7 @@
         $display_block .= '<input type="hidden" value="'.stripslashes($item['title']).'" name="title"/>';
         $display_block .= '<input type="hidden" value="'.$item['price'].'" name="price"/>';
   
-        $display_block .= '<table>';
+        $display_block .= '<table class="item">';
 
         $display_block .= '<tr><td>Title</td><td>'.$item['title'].'</td></tr>';
         $display_block .= '<tr><td>Description</td><td>'.stripslashes($item['description']).'</td></tr>';  
