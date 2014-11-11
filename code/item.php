@@ -8,7 +8,7 @@
     <p> Items detail: </p>
     <table>
       <tr><td>Item ID</td><td></td></tr>
-      <tr><td>Category<</td><td></td></tr>
+      <tr><td>Category</td><td></td></tr>
       <tr><td>Title</td><td></td></tr>
       <tr><td>Description</td><td></td></tr>
       <tr><td>Price</td><td></td></tr>
