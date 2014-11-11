@@ -34,7 +34,7 @@
             $item_description = stripslashes($items['description']);
             $item_qty = $items['qty'];
             echo'<tr><td>'.$item_id.'</td><td>'.$item_category.
-        	    '</td><td><a href="view_product.php?item='.$item_id.'">'.$item_title.'</a></td><td>'.
+        	    '</td><td><a href="item.php?item_id='.$item_id.'">'.$item_title.'</a></td><td>'.
         	    $item_price.'</td><td>'.$item_description.'</td><td>'.$item_qty.'</td></tr>';
         } // end while
     } // end else
