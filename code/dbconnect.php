@@ -13,4 +13,5 @@ function doDB() {
 
       }// end if
 }// end doDB
+doDB();
 ?>
