@@ -2,7 +2,7 @@
   include 'dbconnect.php';
   $item_id = $_GET['item_id'];
 
-  $query = 'SELECT * FROM ecommerce.store_inventory WHERE id='.$item_id.';';
+  $query = 'SELECT * FROM store_inventory WHERE id='.$item_id.';';
   $result = mysqli_query($mysqli, $query)
                        or die(mysqli_error($mysqli));
 
@@ -47,6 +47,7 @@
         $display_block .= '</table></form>';
     } // end else
     echo $display_block;
+    mysqli_free_result($result);
 ?>
 
     <p><a href="catalog.php">Continue Shopping</a></p>
