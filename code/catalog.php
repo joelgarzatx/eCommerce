@@ -1,7 +1,7 @@
 <?php
   include 'dbconnect.php';
 
-  $get_items_sql = 'SELECT * FROM ecommerce.store_inventory;';
+  $get_items_sql = 'SELECT * FROM store_inventory;';
   $get_items_results = mysqli_query($mysqli, $get_items_sql)
                        or die(mysqli_error($mysqli));
 
@@ -38,6 +38,7 @@
         	    $item_price.'</td><td>'.$item_qty.'</td></tr>';
         } // end while
     } // end else
+    mysqli_free_result($get_items_results);
 ?>
 
     </table>
