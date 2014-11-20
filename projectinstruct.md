@@ -1,3 +1,5 @@
+Reminder - There will not be in class demonstrations of the project.
+
 # Instructions for Submitting Shopping Cart Project
 
 * Code
