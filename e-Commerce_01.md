@@ -2,7 +2,7 @@ e-Commerce
 
 
 
-# Tools you will need to set up and get familiar with:
+# Tools you may find helpful to get familiar with:
 
 ## GitHub -- Version Control
 
